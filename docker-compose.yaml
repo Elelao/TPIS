@@ -1,0 +1,9 @@
+services:
+  postgres-db:
+    image: postgres:17
+    environment:
+      POSTGRES_PASSWORD: scheduler-mdp
+      POSTGRES_USER: scheduler
+      POSTGRES_DB: scheduler-db
+    ports:
+      - "5432:5432"

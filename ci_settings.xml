@@ -1,0 +1,37 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <proxies>
+   <proxy>
+      <id>lyon1-http_proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>proxy.univ-lyon1.fr</host>
+      <port>3128</port>
+      <nonProxyHosts>localhost|127.0.0.1|*.univ-lyon1.fr|docker</nonProxyHosts>
+    </proxy>
+   <proxy>
+      <id>lyon1-HTTPS_PROXY</id>
+      <active>true</active>
+      <protocol>HTTPS</protocol>
+      <host>proxy.univ-lyon1.fr</host>
+      <port>3128</port>
+      <nonProxyHosts>localhost|127.0.0.1|*.univ-lyon1.fr|docker</nonProxyHosts>
+    </proxy>
+   <proxy>
+      <id>lyon1-https_proxy</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>proxy.univ-lyon1.fr</host>
+      <port>3128</port>
+      <nonProxyHosts>localhost|127.0.0.1|*.univ-lyon1.fr|docker</nonProxyHosts>
+    </proxy>
+   <proxy>
+      <id>lyon1-HTTP_PROXY</id>
+      <active>true</active>
+      <protocol>HTTP</protocol>
+      <host>proxy.univ-lyon1.fr</host>
+      <port>3128</port>
+      <nonProxyHosts>localhost|127.0.0.1|*.univ-lyon1.fr|docker</nonProxyHosts>
+    </proxy>
+  </proxies>
+</settings>
